@@ -27,7 +27,7 @@ document.querySelector(".img2").setAttribute("src",secondDice)
 //then using an if statement to change the h1 
 if (firstDice > secondDice){
     document.querySelector("h1").innerHTML = "player 1 won"
-}else if (firstDice < secondDice){document.querySelector("h1").innerHTML = "player 2 won"
+}else if (firstDice < secondDice){document.querySelector("h1").innerHTML = "computer won"
 }else document.querySelector("h1").innerHTML = "it a draw";
 
 }
